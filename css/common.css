@@ -1,0 +1,101 @@
+input{margin:0;padding:0;border:none;outline: none;display: block;}
+body{font-family:"微软雅黑";margin:0;font-size: 14px;}
+a{text-decoration: none;display: block;color: #333;}
+h1,h2,h3,h4,h5,h6,dl,dt,dd,ul,ol,li,th,td,p{margin:0;padding:0;}
+li{list-style:none;}
+img{border:none;vertical-align: top;}
+.clearfix{*zoom:1;}
+.clearfix:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+i{font-style:normal; }
+textarea{outline: none;padding: 0;margin: 0;}
+.show{
+	display: block;
+}
+.hidden{
+	display: none;
+}
+.border-line{
+	border-bottom:1px solid #e6e6e6 ;
+}
+.m-b{margin-bottom: 50px;}
+.j-center{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
+/* 公共属性 */
+
+.icon-gray{ color: #999;}
+.icon-yellow{ color: #f0ac2f;}
+.icon-blue{ color: #41b2ec;}
+.icon-green{ color: #5ec8b1;}
+.icon-red{ color: #df6452;}
+.nav-box .choose a{ color: #509ff0;}
+.nav-box .choose-red a{ color: #df6452;}
+.nav-box .choose-yellow a{ color: #f0ac2f;}
+.nav-head.red-back{background: #df6452;}
+.nav-head.yellow-back{background: #f0ac2f;}
+.title{
+	font-size: 18px;
+	color:#404447;
+	font-weight: bold;
+	margin: 20px 0 10px;
+	background: ;
+/* 	border-left:5px solid #3260b7;
+	text-indent: 1rem; */
+}
+.content{
+	padding: 0 5%;
+}
+/* 头部nav */
+.nav-head-kong{height: 56px;}
+
+.nav-head{
+	width: 90%;
+	text-align: center;
+	line-height: 56px;
+	height: 56px;
+	padding: 0px 5%;
+	background: #509ff0;
+	position:fixed;
+	top: 0;
+	overflow: hidden;
+	z-index: 99;
+	box-shadow: 0 0 10px 2px rgba(0,0,0,0.3);
+	color: #fff;
+	
+}
+
+.nav-head .fl a img{
+	margin-top: 8px;
+}
+.nav-head div{
+	display: inline-block;
+}
+.nav-head div i{
+	vertical-align: middle;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
