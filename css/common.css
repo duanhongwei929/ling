@@ -10,12 +10,10 @@ img{border:none;vertical-align: top;}
 	display:block;
 	clear:both;
 }
-.fl{
-	float: left;
-}
-.fr{
-	float: right;
-}
+.fl{float: left;}
+.fr{float: right;}
+.position-r{ position:relative;}
+
 i{font-style:normal; }
 textarea{outline: none;padding: 0;margin: 0;}
 .show{
@@ -27,6 +25,7 @@ textarea{outline: none;padding: 0;margin: 0;}
 .border-line{
 	border-bottom:1px solid #e6e6e6 ;
 }
+.mt-20{ margin-top: 20px;}
 .m-b{margin-bottom: 50px;}
 .j-center{
 	display:flex;
@@ -35,65 +34,15 @@ textarea{outline: none;padding: 0;margin: 0;}
 }
 /* 公共属性 */
 
-.icon-gray{ color: #999;}
-.icon-yellow{ color: #f0ac2f;}
-.icon-blue{ color: #41b2ec;}
-.icon-green{ color: #5ec8b1;}
-.icon-red{ color: #df6452;}
-.nav-box .choose a{ color: #509ff0;}
-.nav-box .choose-red a{ color: #df6452;}
-.nav-box .choose-yellow a{ color: #f0ac2f;}
-.nav-head.red-back{background: #df6452;}
-.nav-head.yellow-back{background: #f0ac2f;}
-.title{
-	font-size: 18px;
-	color:#404447;
-	font-weight: bold;
-	margin: 20px 0 10px;
-	background: ;
-/* 	border-left:5px solid #3260b7;
-	text-indent: 1rem; */
-}
+
 .content{
-	padding: 0 5%;
-}
-/* 头部nav */
-.nav-head-kong{height: 56px;}
-
-.nav-head{
-	width: 90%;
-	text-align: center;
-	line-height: 56px;
-	height: 56px;
-	padding: 0px 5%;
-	background: #509ff0;
-	position:fixed;
-	top: 0;
-	overflow: hidden;
-	z-index: 99;
-	box-shadow: 0 0 10px 2px rgba(0,0,0,0.3);
-	color: #fff;
-	
+	width:1200px;
+	margin: 0 auto;
 }
 
-.nav-head .fl a img{
-	margin-top: 8px;
+.border-bottom-red{
+	border-bottom: 2px solid #FFC102;
 }
-.nav-head div{
-	display: inline-block;
-}
-.nav-head div i{
-	vertical-align: middle;
-}
-
-
-
-
-
-
-
-
-
 
 
 
